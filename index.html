@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dungeon Mapper by Dan Duda</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container main">
+        <div class="row controls">
+            <div class="col-lg-12">
+                <label id="lblCurrent" for="ddlOrientation"></label>
+                <select id="ddlOrientation"><option value="Horizontal">Horizontal</option><option value="Vertical">Vertical</option></select>
+                <span class="pull-right">
+                    <a id="lnkSave" class="btn btn-default">Save</a>
+                    <button id="btnClear" class="btn btn-default" type="button">Clear</button>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id='iconCanvas' width='75' height='800'>
+                    Canvas not supported by your browser
+                </canvas>
+                <canvas id="graphCanvas" width="1000" height="800">
+                    Canvas not supported by your browser
+                </canvas>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-lg-12">
+                <span class="pull-right">by Dan Duda 2015</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="js/dungeonMapper.js"></script>
+</body>
+</html>
+

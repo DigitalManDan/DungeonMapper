@@ -1,0 +1,39 @@
+
+.container.main {
+    width: 1125px;
+}
+
+.controls {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 85px;
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+#iconCanvas {
+    background: #eeeeef;
+    border: thin solid #aaaaaa;
+    cursor: default;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#graphCanvas {
+    background: #ffffff;
+    border: thin solid #aaaaaa;
+    cursor: crosshair;
+    margin-left: 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
